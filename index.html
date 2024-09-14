@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STOCKVIEW</title>
+
+    <!-- custon css file  -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- custon css file  -->
+
+    <!-- font awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- font awesome  -->
+  </head>
+  <body>
+    <!-- header section  -->
+
+    <header class="header">
+      <section class="flex">
+        <a href="#home" class="logo"
+          ><i class="fas fa-money-bill-trend-up"></i> STOCKVIEW
+        </a>
+        <a href="#download" class="btn">download app</a>
+      </section>
+    </header>
+
+    <!-- header section  -->
+
+    <!-- navbar section  -->
+
+    <div class="navbar">
+      <nav class="nav">
+        <a href="#home"><i class="fas fa-home"></i><span>home</span></a>
+        <a href="#about"
+          ><i class="fas fa-circle-info"></i><span>about</span></a
+        >
+        <a href="#download"
+          ><i class="fas fa-download"></i><span>download</span></a
+        >
+        <a href="#pricing"
+          ><i class="fas fa-comments-dollar"></i><span>pricing</span></a
+        >
+        <a href="#home"><i class="fas fa-user"></i><span>login</span></a>
+      </nav>
+    </div>
+
+    <!-- navbar section  -->
+
+    <!-- home section  -->
+
+    <section class="home" id="home">
+      <div class="flex">
+        <div class="content">
+          <h3>start your trading journey with us 👍</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat,
+            cumque itaque consequatur deserunt aliquid doloribus alias
+            aspernatur quis amet? .
+          </p>
+          <a href="#download" class="btn">start trading</a>
+        </div>
+
+        <div class="image">
+          <img
+            src="https://images.pexels.com/photos/6771985/pexels-photo-6771985.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- home section  -->
+
+    <!-- service section  -->
+
+    <section class="services">
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-money-bill-trend-up"></i>
+          <h3>extra income</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+            nostrum repudiandae aut sit libero est!
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-coins"></i>
+          <h3>financial advisory</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+            nostrum repudiandae aut sit libero est!
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-shield-halved"></i>
+          <h3>account protection</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+            nostrum repudiandae aut sit libero est!
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-credit-card"></i>
+          <h3>easy payments</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+            nostrum repudiandae aut sit libero est!
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-money-bill-transfer"></i>
+          <h3>easy withdrawals</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+            nostrum repudiandae aut sit libero est!
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-headset"></i>
+          <h3>24/7 support</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+            nostrum repudiandae aut sit libero est!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- service section  -->
+
+    <!-- about section  -->
+
+    <div class="about" id="about">
+      <section class="flex">
+        <div class="content">
+          <h3>benefits we offer 😊</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+            dignissimos aut reiciendis libero sequi quo.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+            voluptatibus enim labore eius numquam eligendi ab? Ex ad praesentium
+            corporis.
+          </p>
+          <a href="#" class="btn"> learn trading</a>
+        </div>
+        <div class="image">
+          <img
+            src="https://images.pexels.com/photos/6772076/pexels-photo-6772076.jpeg?auto=compress&cs=tinysrgb&w=1600"
+            alt=""
+          />
+        </div>
+      </section>
+    </div>
+
+    <!-- about section  -->
+
+    <!-- review section  -->
+
+    <section class="reviews">
+      <div class="flex">
+        <div class="content">
+          <h3>what our clients have to say 😊</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+            quibusdam, quos sequi est corrupti illum.
+          </p>
+          <div class="controls">
+            <div class="fas fa-angle-left" onclick="prev()"></div>
+            <div class="fas fa-angle-right" onclick="next()"></div>
+          </div>
+        </div>
+
+        <div class="slides-container">
+          <div class="slide active">
+            <p class="text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Inventore, vitae enim ut ipsum temporibus incidunt omnis commodi
+              veniam molestias error?
+            </p>
+            <div class="user">
+              <img
+                src="https://images.pexels.com/photos/28244701/pexels-photo-28244701/free-photo-of-rostro-de-sabiduria-andina-el-tiempo-reflejado-en-el-rostro-de-esta-mujer-de-la-zona-rural-su-mirada-profunda-y-serena-es-testimonio-de-una-vida-marcada-por-el-trabajo-la-tradicion-y.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load"
+                alt=""
+              />
+              <div>
+                <h3>John doe</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+              <i class="fas fa-quote-right"></i>
+            </div>
+          </div>
+
+          <div class="slide">
+            <p class="text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque facilis impedit quod? Exercitationem unde doloremque
+              minus quibusdam itaque sapiente quaerat adipisci perspiciatis
+              dignissimos officia ipsam, deserunt pariatur! Possimus, recusandae
+              nemo!
+            </p>
+            <div class="user">
+              <img
+                src="https://images.pexels.com/photos/19749005/pexels-photo-19749005/free-photo-of-smiling-woman-in-jacket.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load"
+                alt=""
+              />
+              <div>
+                <h3>John doe</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+              <i class="fas fa-quote-right"></i>
+            </div>
+          </div>
+
+          <div class="slide">
+            <p class="text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque
+              debitis, nam repudiandae animi provident reiciendis architecto
+              voluptate, laudantium illo unde impedit incidunt voluptatibus
+              eaque eos neque?
+            </p>
+            <div class="user">
+              <img
+                src="https://images.pexels.com/photos/28055801/pexels-photo-28055801/free-photo-of-a-woman-in-a-black-dress-is-standing-in-the-desert.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load"
+                alt=""
+              />
+              <div>
+                <h3>John doe</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+              <i class="fas fa-quote-right"></i>
+            </div>
+          </div>
+
+          <div class="slide">
+            <p class="text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Inventore, vitae enim ut ipsum temporibus incidunt omnis commodi
+              veniam molestias error?
+            </p>
+            <div class="user">
+              <img
+                src="https://images.pexels.com/photos/28122988/pexels-photo-28122988/free-photo-of-a-woman-in-a-brown-dress-stands-in-front-of-a-market.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load"
+                alt=""
+              />
+              <div>
+                <h3>John doe</h3>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+              <i class="fas fa-quote-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- review section  -->
+
+    <!-- download section  -->
+
+    <div class="download" id="download">
+      <section class="flex">
+        <div class="image">
+          <img
+            src="https://cdn.pixabay.com/photo/2016/11/27/21/42/stock-1863880_640.jpg"
+            alt=""
+          />
+        </div>
+
+        <div class="content">
+          <h3>download and start trading</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id
+            architecto nobis error deleniti voluptatem dolor.
+          </p>
+          <div class="links">
+            <a href="#"><i class="fab fa-google-play"></i>google play</a>
+            <a href="#"><i class="fab fa-apple"></i>apple store</a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- download section  -->
+
+    <!-- pricing section  -->
+
+    <section class="pricing" id="pricing">
+      <div class="toggle-buttons">
+        <div class="button month-btn active">monthly</div>
+        <div class="button year-btn">yearly</div>
+      </div>
+
+      <div class="box-container">
+        <div class="box">
+          <h3>basic</h3>
+          <div class="price month">
+            <span>$94.99 / </span> <span>monthly</span>
+          </div>
+          <div class="price year">
+            <span>$194.99 / </span> <span>yearly</span>
+          </div>
+          <div class="list">
+            <p>
+              <i class="fas fa-circle-check"></i>
+              <span>trade learning access</span>
+            </p>
+            <p>
+              <i class="fas fa-circle-check"></i>
+              <span>graphical chat reports</span>
+            </p>
+            <p>
+              <i class="fas fa-circle-xmark"></i>
+              <span>account managemant advisors</span>
+            </p>
+            <p>
+              <i class="fas fa-circle-xmark"></i> <span>personal advisors</span>
+            </p>
+            <p>
+              <i class="fas fa-circle-xmark"></i>
+              <span>24/7 technical support</span>
+            </p>
+          </div>
+          <a href="#" class="btn">choose plan</a>
+        </div>
+
+        <div class="box">
+          <h3>standard</h3>
+          <div class="price month">
+            <span>$194.99 / </span> <span>monthly</span>
+          </div>
+          <div class="price year">
+            <span>$294.99 / </span> <span>yearly</span>
+          </div>
+          <div class="list">
+            <p>
+              <i class="fas fa-circle-check"></i>
+              <span>trade learning access</span>
+            </p>
+            <p>
+              <i class="fas fa-circle-check"></i>
+              <span>graphical chat reports</span>
+            </p>
+            <p>
+              <i class="fas fa-circle-check"></i>
+              <span>account managemant advisors</span>
+            </p>
+            <p>
+              <i class="fas fa-circle-xmark"></i> <span>personal advisors</span>
+            </p>
+            <p>
+              <i class="fas fa-circle-xmark"></i>
+              <span>24/7 technical support</span>
+            </p>
+          </div>
+          <a href="#" class="btn">choose plan</a>
+        </div>
+
+        <div class="box">
+          <h3>premium</h3>
+          <div class="price month">
+            <span>$294.99 / </span> <span>monthly</span>
+          </div>
+          <div class="price year">
+            <span>$394.99 / </span> <span>yearly</span>
+          </div>
+          <div class="list">
+            <p>
+              <i class="fas fa-circle-check"></i>
+              <span>trade learning access</span>
+            </p>
+            <p>
+              <i class="fas fa-circle-check"></i>
+              <span>graphical chat reports</span>
+            </p>
+            <p>
+              <i class="fas fa-circle-check"></i>
+              <span>account managemant advisors</span>
+            </p>
+            <p>
+              <i class="fas fa-circle-check"></i> <span>personal advisors</span>
+            </p>
+            <p>
+              <i class="fas fa-circle-check"></i>
+              <span>24/7 technical support</span>
+            </p>
+          </div>
+          <a href="#" class="btn">choose plan</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- pricing section  -->
+
+    <!-- newsletter section  -->
+
+    <div class="newsletter">
+      <section class="news">
+        <h3>get latest news</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci
+          cupiditate voluptates veritatis, iusto repellat assumenda!
+        </p>
+        <form action="">
+          <input type="text" placeholder="your name" class="input" maxlength="30">
+          <input type="email" placeholder="your email" class="input" maxlength="50">
+          <input type="submit" value="subscribe now" class="btn">
+        </form>
+      </section>
+    </div>
+
+    <!-- newsletter section  -->
+
+    <!-- js file link  -->
+    <script src="/script.js"></script>
+    <!-- js file link  -->
+  </body>
+</html>
